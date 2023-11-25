@@ -154,6 +154,7 @@ h6,
     /* background: url(../img/bg-hero.png) center center no-repeat; */
     background: url(../img/horizon.png) center center no-repeat;
     background-size: cover;
+    padding-bottom: 75px;
 }
 
 .hero-overlay {
@@ -341,6 +342,9 @@ h6,
 /*** Case Study ***/
 .case-item img {
     transition: .5s;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
 }
   
 .case-item:hover img {
